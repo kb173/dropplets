@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,500,700');
 /* ========== General ========== */
-body{font-family:'Montserrat',sans-serif;font-weight: 300;color: #777;background: #fff;font-size: 16px;}
+body{font-family:'Montserrat',sans-serif;font-weight: 300;color: #777;background: #fff;font-size: 1em;}
 h1, h2, h3,h4,h5,h6{color: #303549;font-weight: 700;margin: 20px 0;}
-h1{text-transform: uppercase;font-size: 28px;}
+h1{text-transform: uppercase;font-size: 1.9em;}
 #siteTitle {text-align:center;}
-h2{font-size: 24px;}
-h3{font-size: 20px;}
-h4{font-size:18px;}
-h5{font-size:16px;}
-h6{font-size:16px;font-weight:500;}
+h2{font-size: 1.8em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em;}
+h5{font-size: 1.2em;}
+h6{font-size: 1em;font-weight:500;}
 a{text-decoration: none;color: #40c057;border-bottom:1px solid #fff;transition: all .3s ease-in-out;}
 a:hover{color:#777;border-bottom: 1px solid #40c057;}
 a:active{border-bottom:1px solid #777;}
@@ -16,7 +16,7 @@ a:visited{color:#7ad38a;}
 ol{list-style:upper-roman;}
 ul{list-style:disc;}
 li{margin-left:20px;}
-code{background:#F2F5F7;padding:20px;margin:20px;color:#657783;font-family:'Courier';font-size:14px;display:block;}
+code{background:#F2F5F7;padding:20px;margin:20px;color:#657783;font-family:'Courier';font-size:0.9em;display:block;}
 img{width:100%;margin: 20px 0;}
 q, blockquote, quote{position:relative;display:block;padding-left:20px;}
 q::before, blockquote::before, quote::before{content:'';position:absolute;height:100%;left:0;border-left:2px solid #AAB8C2;}
@@ -26,8 +26,8 @@ del{text-decoration: line-through;}
 hr{border: 0;height: 0;border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
 p{margin-bottom: 10px;color:#777;}
 header{border-top: 5px solid #40c057;}
-#postSubtitle{display: block;font-weight:500;font-size:15px;color:#AAB8C2;margin:20px 0;}
-#footer {text-align: center;font-size:14px;color:#AAB8C2;margin:40px 0;}
+#postSubtitle{display: block;font-weight:500;font-size:1.9em;color:#AAB8C2;margin:20px 0;}
+#footer {text-align: center;font-size:0.8em;color:#AAB8C2;margin:40px 0;}
 /* ========== Index ========== */
 main#index h1#siteTitle{margin-top: 100px;margin-bottom: 20px;}
 main#index div.posts{width:65vw;margin:65px auto;}
@@ -40,7 +40,7 @@ main#index div.post h2 a{text-decoration: none;color:#303549;border:none;}
 main#index div.post h2 a::after{content:'';position: absolute;left:0;top:0;right:0;bottom:0;}
 main#index #postContent{margin-top:30px;line-height:150%;}
 /* ========== Post Page ========== */
-main#postPage #siteTitleLink::before{content:'➜';position: absolute;display: block;font-size: 18px;transform: rotate(180deg);visibility: visible;}
+main#postPage #siteTitleLink::before{content:'➜';position: absolute;display: block;font-size: 1.2em;transform: rotate(180deg);visibility: visible;}
 main#postPage #siteTitleLink{position:fixed;visibility:hidden;margin-left:50px; margin-top:30px;color:#303549;}
 main#postPage #siteTitleLink:hover{color:#40c057;}
 main#postPage #postTitle{margin-top: 100px;margin-bottom: 20px;}
